@@ -5,11 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 import python_bithumb
 
-# 강의자료 : https://jocoding.net/gptbitcoin-bithumb 
-# 4단계 
-# - 4-5강(디테일 수정 및 실제 자동매매 실행하기) 
-# - 5-1강(시스템 메시지에 투자철학 추가) 
-# - 5-2강(공포탐욕지수 추가) 
+# - 시스템 메시지에 투자철학 추가(반영 완료)
+# - 공포탐욕지수 추가(미반영)
 
 def ai_trading():
     # 1. 빗썸 차트 데이터 가져오기 (hour6: 6시간 단위) 
